@@ -104,3 +104,8 @@ Don't forget to run ```npm install``` from the terminal of your project folder t
 
 # Tasks
 
+### 0-Const or let?
+Modify
+- function ```taskFirst``` to instantiate variables using ```const```
+- function ```tasNext``` to instantiate variables using ```let```
+
