@@ -135,7 +135,7 @@ module.exports = {
 Don’t forget to run $ npm install when you have the package.json
 
 # Tasks
-** 0 Basic Lists of Objects
+### 0 Basic Lists of Objects
 Create a function named ```getListStudents``` that returns an array of objects.
 
 Each object should have three attributes: ```id``` (Number), ```firstName``` (String), and ```location``` (String).
@@ -161,7 +161,7 @@ bob@dylan:~$ npm run dev 0-main.js
 bob@dylan:~$
 ```
 
-# 1 More Mapping
+### 1 More Mapping
 Create a function ```getListStudentIds``` that returns an array of ids from a list of object.
 
 This function is taking one argument which is an array of objects - and this array is the same format as getListStudents from the previous task.
