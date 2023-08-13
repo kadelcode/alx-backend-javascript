@@ -304,7 +304,7 @@ DataView {
 bob@dylan:~$
 ```
 
-# 6. Set data structure
+### 6. Set data structure
 Create a function named setFromArray that returns a Set from an array.
 
 It accepts an argument (Array, of any kind of element).
