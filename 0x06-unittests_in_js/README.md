@@ -1,16 +1,15 @@
 # Unittests in JS
 ## Resources
 **Read or watch**:
-
 - [Mocha documentation](https://mochajs.org/)
 - [Chai](https://www.chaijs.com/api/)
 - [Sinon](https://sinonjs.org/releases/v7.5.0/)
 - [Express](https://expressjs.com/en/guide/routing.html)
 - [Request](https://www.npmjs.com/package/request)
 - [How to Test NodeJS Apps using Mocha, Chai and SinonJS](https://www.digitalocean.com/community/tutorials/how-to-test-nodejs-apps-using-mocha-chai-and-sinonjs)
+- 
 ## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:
-
 - How to use Mocha to write a test suite
 - How to use different assertion libraries (Node or Chai)
 - How to present long test suites
@@ -31,27 +30,27 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 ## Tasks
 ### 0. Basic test with Mocha and Node assertion library
 **Install Mocha using npm:**
-
-- Set up a scripts in your package.json to quickly run Mocha using npm test
-- You have to use assert
+  - Set up a scripts in your package.json to quickly run Mocha using npm test
+  - You have to use assert
+  - 
 **Create a new file named** ```0-calcul.js```:
+  - Create a function named ```calculateNumber```. It should accepts two arguments (number) ```a``` and ```b```
+  - The function should round ```a``` and ```b``` and return the sum of it
 
-- Create a function named ```calculateNumber```. It should accepts two arguments (number) ```a``` and ```b```
-- The function should round ```a``` and ```b``` and return the sum of it
 **Test cases**
+  - Create a file ```0-calcul.test.js``` that contains test cases of this function
+  - You can assume ```a``` and ```b``` are always number
+  - Tests should be around the “rounded” part
 
-- Create a file ```0-calcul.test.js``` that contains test cases of this function
-- You can assume ```a``` and ```b``` are always number
-- Tests should be around the “rounded” part
 **Tips:**
+  - For the sake of the example, this test suite is slightly extreme and probably not needed
+  - However, remember that your tests should not only verify what a function is supposed to do, but also the edge cases
 
-- For the sake of the example, this test suite is slightly extreme and probably not needed
-- However, remember that your tests should not only verify what a function is supposed to do, but also the edge cases
 **Requirements:**
+  - You have to use ```assert```
+  - You should be able to run the test suite using npm test ```0-calcul.test.js```
+  - Every test should pass without any warning
 
-- You have to use ```assert```
-- You should be able to run the test suite using npm test ```0-calcul.test.js```
-- Every test should pass without any warning
 **Expected output**
 ```
 > const calculateNumber = require("./0-calcul.js");
@@ -81,3 +80,5 @@ bob@dylan:~$ npm test 0-calcul.test.js
   130 passing (35ms)
 bob@dylan:~$
 ```
+
+### 1. Combining descriptions
