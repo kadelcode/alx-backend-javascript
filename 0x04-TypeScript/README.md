@@ -185,3 +185,35 @@ console.log(teacher3);
 FileS: ```task_1/js/main.ts```, ```task_1/webpack.config.js```, ```task_1/tsconfig.json```, ```task_1/package.json```
 
 ### 2. Extending the Teacher class
+Write an interface named ```Directors``` that extends ```Teacher```. It requires an attribute named ```numberOfReports(number)```
+
+Example:
+```
+const director1: Directors = {
+  firstName: 'John',
+  lastName: 'Doe',
+  location: 'London',
+  fullTimeEmployee: true,
+  numberOfReports: 17,
+};
+console.log(director1);
+
+// should print
+// Object
+// firstName: "John"
+// fullTimeEmployee: true
+// lastName: "Doe"
+// location: "London"
+// numberOfReports: 17
+```
+File: task_1/js/main.ts
+
+### 3. Printing teachers
+Write a function ```printTeacher```:
+
+It accepts two arguments ```firstName``` and ```lastName```
+It returns the first letter of the firstName and the full lastName
+Example: ```printTeacher("John", "Doe") -> J. Doe```
+Write an interface for the function named ```printTeacherFunction```.
+
+### 4. Writing a class
