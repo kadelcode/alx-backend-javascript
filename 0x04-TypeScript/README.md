@@ -219,7 +219,6 @@ File: ```task_1/js/main.ts```
 
 ### 4. Writing a class
 Write a Class named ```StudentClass```:
-
 - The constructor accepts ```firstName(string)``` and ```lastName(string)``` arguments
 - The class has a method named ```workOnHomework``` that return the string ```Currently working```
 - The class has a method named ```displayName```. It returns the firstName of the student
@@ -234,27 +233,26 @@ File: ```task_1/js/main.ts```
 
 ### 5. Advanced types Part 1
 Create the ```DirectorInterface``` interface with the 3 expected methods:
-
 - ```workFromHome()``` returning a string
 - ```getCoffeeBreak()``` returning a string
-- ```workDirectorTasks()``` returning a string
-Create the ```TeacherInterface``` interface with the 3 expected methods:
+- ```workDirectorTasks()``` returning a string<br><br>
 
+Create the ```TeacherInterface``` interface with the 3 expected methods:
 - ```workFromHome()``` returning a string
 - ```getCoffeeBreak()``` returning a string
 - ```workTeacherTasks()``` returning a string
-Create a class ```Director``` that will implement ```DirectorInterface```
 
+Create a class ```Director``` that will implement ```DirectorInterface```<br><br>
 - ```workFromHome``` should return the string ```Working from home```
 - ```getToWork``` should return the string ```Getting a coffee break```
-- ```workDirectorTasks``` should return the string ```Getting to director tasks```
-Create a class ```Teacher``` that will implement ```TeacherInterface```
+- ```workDirectorTasks``` should return the string ```Getting to director tasks```<br><br>
 
+Create a class ```Teacher``` that will implement ```TeacherInterface```
 - ```workFromHome``` should return the string ```Cannot work from home```
 - ```getCoffeeBreak``` should return the string ```Cannot have a break```
-- ```workTeacherTasks``` should return the string ```Getting to work```
-Create a function ```createEmployee``` with the following requirements:
+- ```workTeacherTasks``` should return the string ```Getting to work```<br><br>
 
+Create a function ```createEmployee``` with the following requirements:
 - It can return either a ```Director``` or a ```Teacher``` instance
 - It accepts 1 arguments:
   - ```salary```(either number or string)
