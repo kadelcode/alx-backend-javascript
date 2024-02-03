@@ -428,3 +428,13 @@ Create a file ```Java.ts``` and write a ```Java Class``` in the same namespace.
 Files: ```task_4/package.json```, ```task_4/tsconfig.json```, ```task_4/js/subjects/Cpp.ts```, ```task_4/js/subjects/Java.ts```, ```task_4/js/subjects/React.ts```, ```task_4/js/subjects/Subject.ts```, ```task_4/js/subjects/Teacher.ts```
 
 ### 10. Update task_4/js/main.ts
+- create and export a constant ```cpp``` for Cpp Subjects
+- create and export a constant ```java``` for Java Subjects
+- create and export a constant ```react``` for React Subjects
+- create and export one Teacher object ```cTeacher``` with ```experienceTeachingC = 10```
+- for Cpp subject, log to the console ```C++```, set ```cTeacher``` as the teacher, call the two methods ```getRequirements``` and ```getAvailableTeacher``` and print the strings they return
+- for ```Java``` subject, log to the console Java, set ```cTeacher``` as the teacher, call the two methods ```getRequirements``` and ```getAvailableTeacher```, and print the strings they return
+- for ```React``` subject, log to the console React, set ```cTeacher``` as the teacher, call the two methods ```getRequirements``` and ```getAvailableTeacher```, and print the strings they return
+
+### 11. Brand convention & Nominal typing
+File: ```task_4/js/main.ts```
